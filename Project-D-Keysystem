@@ -35,7 +35,7 @@ end
 
 local function runProtectedScript()
     local ok, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/maddonk1241/Redlinerscript/eeb49ead830973d40c29b293cbc592b3f3fe76dc/Redliner.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/maddonk1241/Project-D2/34278b2780d087765f52391e262386631da63d13/Real.lua"))()
     end)
 
     if ok then
